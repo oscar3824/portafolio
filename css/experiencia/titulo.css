@@ -1,0 +1,8 @@
+.experience__section__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--color-title);
+    padding-top: 1rem;
+
+}

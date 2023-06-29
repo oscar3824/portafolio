@@ -1,0 +1,12 @@
+.experience__info {
+    text-align: center;
+}
+.experience__title{
+    color: var(--color-title);
+
+}
+.experience__text{
+    color: var(--color-parrafo);
+    font-size: 16px;
+
+}

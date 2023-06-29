@@ -1,0 +1,8 @@
+.academic__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--color-title);
+    padding-bottom: 3rem ;
+    margin-left: 5rem;
+}

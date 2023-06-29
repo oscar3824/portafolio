@@ -1,0 +1,14 @@
+.skills__box {
+    display: inline-block;
+    max-width: min-content;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 1rem;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.skills__name{
+    margin-left: 1.4rem;
+
+   
+}

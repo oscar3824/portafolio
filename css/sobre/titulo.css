@@ -1,0 +1,5 @@
+.about__title{
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--color-title);
+}

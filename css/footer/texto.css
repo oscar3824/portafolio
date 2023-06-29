@@ -1,0 +1,7 @@
+.footer__rodape {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 0.5;
+    color: var(--color-de-link);
+    padding: 3rem;
+}
