@@ -1,0 +1,31 @@
+.formcontato__title {
+    font-size: 32px;
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--color-title);
+    margin-bottom: 1rem;
+}
+.formcontato__text {
+    margin-bottom: 3rem;
+    width: 45%;
+}
+
+.formcontato__subtext {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+@media(max-width:425px){
+    .formcontato__text{
+        width: 100%;
+        text-align: justify;
+    }
+    .formcontato__subtext {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        text-align: justify;
+
+    }
+
+}

@@ -6,3 +6,9 @@
     padding-bottom: 3rem ;
     margin-left: 5rem;
 }
+
+@media(max-width:425px){
+    .academic__title{
+        margin: 0;
+    }
+}

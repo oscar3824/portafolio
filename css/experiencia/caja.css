@@ -6,3 +6,9 @@
     padding: 1rem;
 
 }
+
+@media(max-width:768px){
+    .experiencie__box{
+        flex-direction: column;
+    }
+}

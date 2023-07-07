@@ -1,13 +1,31 @@
 .hobbies__box {
-    display: inline-block;
-    max-width: min-content;
-    text-align: center;
+    display: flex;
+    width: 16%;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    padding-bottom: 1rem;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   }
+.hobbies__icon{
+  margin-left: 1rem;
+  text-align: center;
+
+}
 .hobbies__name{
-    padding-left: 1.5rem;
+  text-align: center;
+  margin-left: 1rem;
     
+}
+
+@media (max-width:768px){
+  .hobbies__box {
+      width: 100%;
+      margin-bottom: 1rem;
+      justify-content: center;
+      align-items: center;
+  }
+  .skills__icon{
+      text-align: center;
+  }
 }

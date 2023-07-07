@@ -1,4 +1,13 @@
 .skills__line {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between;
+   
+}
+
+@media(max-width:768px){
+    .skills__line{
+        flex-direction: column;
+    }
+    
+
 }

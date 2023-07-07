@@ -1,7 +1,28 @@
 section.menu {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 5rem;
     background-color: var(--color-header);
+    padding: 5rem;
+} 
+    
+@media (max-width: 768px) {
+    section.menu {
+        flex-direction: column;
+        align-items: center;
+
+}
+     
+    
+}
+@media (max-width: 425px) {
+    .menu__header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+       
+
 }

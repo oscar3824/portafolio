@@ -3,3 +3,13 @@
     padding: 0;
     margin-top: 3rem;
 }
+
+@media(max-width:425px){
+    .title__network{
+        flex-direction: row;
+        font-size: 1rem;
+    }
+    .title__network__item{
+        text-align: center;
+    }
+}

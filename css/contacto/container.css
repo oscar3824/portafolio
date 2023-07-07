@@ -1,4 +1,26 @@
 section.formcontato {
-    padding: 5rem;
+    padding:1.5rem 5rem;
     background-color: var(--color-de-fondo);
+}
+.formcontato__contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+@media(max-width:768px){
+    section.formcontacto{
+        padding: 3rem;
+
+    }
+   
+}
+@media(max-width:425px){
+    section.formcontacto{
+        padding: 0;
+    }
+    .formcontato__contacto {
+        flex-direction: column;
+    }
+   
 }

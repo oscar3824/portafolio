@@ -1,5 +1,23 @@
+
 .menu__title{
-    font-size: 2rem;
     color: var(--color-de-fondo);
+    font-size: 2.5rem;
+
+
+
+}
+
+@media (max-width: 768px) {
+    .menu__title {
+        font-size: 3rem;
+        padding-bottom: 0%;
+
+    }
+}
+
+@media (max-width: 425px) {
+      .menu__title{
+        font-size: 2rem;
+      } 
 
 }

@@ -2,3 +2,10 @@ section.academic {
     padding: 0 5rem;
     background-color: var(--color-de-seccion);
 }
+
+@media(max-width:425px){
+    section.academic{
+        padding: 1rem;
+
+    }
+}

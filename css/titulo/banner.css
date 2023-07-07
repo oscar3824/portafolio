@@ -1,8 +1,14 @@
 .title__profile {
-    width: 30%;
+    width: 25%;
     border-radius: 50%;
     transition: box-shadow 0.3s ease;
 }
 .title__profile:hover{
     box-shadow: 0 0 2rem var(--color-hover);
+}
+@media(max-width:768px) {
+    .title__profile{
+        display: none;
+    }
+
 }

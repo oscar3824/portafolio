@@ -1,3 +1,8 @@
 .map{
     max-height: 17rem;
 }
+@media(max-width:425px){
+    .map{
+        width: 100%;
+    }
+}

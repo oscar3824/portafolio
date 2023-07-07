@@ -1,6 +1,11 @@
 .academic__courses {
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
 
+}
+
+@media(max-width:768px){
+    .academic__courses{
+        flex-direction: column;
+    }
 }

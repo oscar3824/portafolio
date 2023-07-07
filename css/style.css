@@ -24,6 +24,7 @@ li {
     align-items: center;
     margin-right: 2rem;
     list-style: none;
+    margin-bottom: 1rem;
 
 
 }
@@ -55,24 +56,10 @@ a:hover{
 }
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media (max-width: 425px) {
 
-    /*Menu*/
-
-    /*Titulo*/
-
-    /*Sección sobre mi*/
-
-    /*Skills*/
-
-    /*Hobbies*/
-
-    /*Formación Académica*/
-
-    /*Experiencia Profesional*/
-
-    /*Contacto*/
-
-    /*Footer*/
+  a{
+    font-size: 1rem;
+  }  
 
 }

@@ -1,5 +1,10 @@
 section.skills{
-    padding: 5rem;
+    padding: 1.5rem 5rem;
 
-
+}
+@media(max-width:425px){
+    section.skills{
+        padding: 1rem;
+    }
+   
 }
