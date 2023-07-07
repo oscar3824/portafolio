@@ -4,24 +4,27 @@ section.menu {
     justify-content: space-between;
     align-items: center;
     background-color: var(--color-header);
-    padding: 5rem;
+    padding: 1.5rem 5rem;
 } 
     
 @media (max-width: 768px) {
     section.menu {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
 
 }
      
     
 }
 @media (max-width: 425px) {
+    section.menu{
+        padding: 1.3rem;
+    }
     .menu__header{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin: 0;
+        align-items: left;
+        padding: 1rem;
     }
        
 
