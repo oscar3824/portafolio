@@ -67,6 +67,15 @@ miFormulario.addEventListener("submit", function (event) {
     alert("¡Mensaje enviado con éxito!");
   }
 });
+function cargarValoresCampos() {
+  const campos = miFormulario.querySelectorAll("input, textarea");
+  campos.forEach((campo) => {
+    campo.value = localStorage.getItem(campo.name) || "";
+  });
+}
+
+window.addEventListener("load", cargarValoresCampos);
+
 
 
 
