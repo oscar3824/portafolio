@@ -8,6 +8,13 @@
 .map{
     height:26vw;
 }
+@media(max-width:768px){
+    .map{
+        height: 350px;
+    }
+   
+
+}
 @media(max-width:425px){
     .formcontato--esquerda{
         width: 100%;

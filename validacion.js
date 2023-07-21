@@ -61,7 +61,6 @@ const validadores = {
 const miFormulario = document.getElementById("miFormulario");
 
 miFormulario.addEventListener("submit", function (event) {
-  event.preventDefault();
   const todosLosCamposValidos = Array.from(inputs).every(input => input.validity.valid);
 
   if (todosLosCamposValidos) {

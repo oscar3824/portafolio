@@ -12,6 +12,9 @@ section.about {
 }
 
 @media(max-width:768px){
+    section.about{
+        padding: 0 1rem;
+    }
     .about__container{
         width: 100%;
 

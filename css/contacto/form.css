@@ -43,11 +43,14 @@
 
     .formcontato__input,
     .formcontato__textarea {
-        width: 100%;
+        width: 90%;
     }
     .formcontato__title {
         text-align: left;
         
+    }
+    .formcontato__botao{
+        width: 100%;
     }
 }
 @media(max-width:425px){
