@@ -65,7 +65,6 @@ miFormulario.addEventListener("submit", function (event) {
 
   if (todosLosCamposValidos) {
     alert("¡Mensaje enviado con éxito!");
-    miFormulario.reset();
   }
 });
 
