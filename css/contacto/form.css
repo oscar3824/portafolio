@@ -3,12 +3,29 @@
     flex-direction: column;
     align-items: left;
 }
+.input-container {
+    font-weight: var(--font-weigth-input);
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+  .input-message-error {
+    display: none;
+  }
+  .input-container--invalid .input-message-error {
+    color: red;
+    display: block;
+    padding-left: .5rem;
+
+  }
 
 .formcontato__input,
 .formcontato__textarea {
-    width: 50%;
-    padding: .5rem;
-    margin-bottom: 1rem;
+    width: 60%;
+    padding: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
 }

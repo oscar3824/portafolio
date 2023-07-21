@@ -11,7 +11,8 @@
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/menu/container.css">
     <link rel="stylesheet" href="css/menu/title.css">
     <link rel="stylesheet" href="css/menu/list.css">
@@ -82,7 +83,8 @@
         <section class="title">
             <div class="title__div">
                 <div class="title__container">
-                    <h2 class="title__bio">Hola, mi nombre es Oscar Alberto Camacho Garcia y </br>soy Licenciado en Tecnología
+                    <h2 class="title__bio">Hola, mi nombre es Oscar Alberto Camacho Garcia y </br>soy Licenciado en
+                        Tecnología
                     </h2>
                     <h3 class="title__subsection">Soy profesional de la Universidad Pedagógica y Tecnológica de
                         Colombia.</br> Desarrollador Web en Min Tic y Oracle Next Education.</h3>
@@ -94,7 +96,8 @@
                                 <i class="fa-brands fa-linkedin iconRedes"></i></a></li>
                         <li class="title__network__item"><a href="https://www.instagram.com/developer_web_jr/">Instagram
                                 <i class="fa-brands fa-instagram iconRedes"></i></a></li>
-                        <li class="title__network__item"><a href="assets/document/Curriculum-OscarCamacho.pdf">Currículo <i class="fa-solid fa-download iconRedes"></i></a>
+                        <li class="title__network__item"><a href="assets/document/Curriculum-OscarCamacho.pdf">Currículo
+                                <i class="fa-solid fa-download iconRedes"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -239,7 +242,8 @@
                 <div class="academic__courses__box">
                     <ul class="academic__courses__list">
                         <!--Pon el logotipo de la institución de formación -->
-                        <li class="academic__courses__item__img"><img class="academic__courses__item__img--minTic" src="/assets/img/misionTic.png"></li>
+                        <li class="academic__courses__item__img"><img class="academic__courses__item__img--minTic"
+                                src="/assets/img/misionTic.png"></li>
                         <li class="academic__courses__item__title">
                             <h4>Desarrollo Web</h4>
                         </li>
@@ -291,8 +295,7 @@
                     <h3 class="experience__text">Trabajo Autonomo </h3>
                     <div class="experience__description">
                         <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                        <span class="experience__repo"><a
-                                href="#"><button
+                        <span class="experience__repo"><a href="#"><button
                                     class="experiencia__botao--repo btn ">Repositório</button></a></span>
                         <span class="experience__demo"><a href=""><button class="experience__botao--demo btn">Ver
                                     demo</button></a></span>
@@ -308,10 +311,10 @@
                     <h3 class="experience__text">Monografia-Trabajo de grado </h3>
                     <div class="experience__description">
                         <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                        <span class="experience__repo"><a
-                                href="#"><button
+                        <span class="experience__repo"><a href="#"><button
                                     class="experiencia__botao--repo btn ">Repositório</button></a></span>
-                        <span class="experience__demo"><a href="assets/document/Informe_Camacho_O_2023.pdf"><button class="experience__botao--demo btn">Ver
+                        <span class="experience__demo"><a href="assets/document/Informe_Camacho_O_2023.pdf"><button
+                                    class="experience__botao--demo btn">Ver
                                     informe</button></a></span>
                     </div>
                 </div>
@@ -342,14 +345,31 @@
                     <h2 class="formcontato__title"> <i class="fa-solid fa-address-card"></i> Contacto</h2>
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con
                         usted lo antes posible. </h3>
-                    <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
+                    <form action="https://formspree.io/f/meqbolzj" method="POST"  class="formcontato__form" name="form" id="miFormulario">
+                        <div class="input-container">
+                            <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required
+                                data-tipo="nombre" autocomplete="off">
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                        <div class="input-container">
+                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required
+                            data-tipo="email" autocomplete="off">
+                            <span class="input-message-error">Este campo no es valido</span>
+
+                        </div>
+                        <div class="input-container">
+                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto" required
+                            data-tipo="asunto" autocomplete="off">
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                        <div class="input-container">
                         <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
-                            placeholder="Mensaje"></textarea>
-                        <button type="submit" class="formcontato__botao btn">Enviar mensaje</button>
+                            placeholder="Mensaje" autocomplete="off"></textarea>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                        <button type="submit" id="btnRegistro" class="formcontato__botao btn">Enviar mensaje</button>
                     </form>
+                    <div id="mensajeExito" style="display: none;">¡Mensaje enviado con éxito!</div>
                 </div>
                 <div class="formcontato--esquerda">
                     <div lass="formcontato__text">

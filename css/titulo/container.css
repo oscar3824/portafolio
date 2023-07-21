@@ -7,7 +7,15 @@ section.title{
 }
 
 @media(max-width:768px) {
-    .title__div{
-        flex-direction: row;
+    section.title{
+        padding: 1.3rem;
     }
+    
+}
+@media(max-width:425px){
+    section.title{
+        width: auto;
+    }
+   
+
 }
