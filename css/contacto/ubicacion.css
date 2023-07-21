@@ -1,8 +1,19 @@
+.formcontato--esquerda{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+   
+}
 .map{
-    max-height: 17rem;
+    height:26vw;
 }
 @media(max-width:425px){
-    .map{
+    .formcontato--esquerda{
         width: 100%;
     }
+    .map{
+        height: 300px;
+    }
+   
 }

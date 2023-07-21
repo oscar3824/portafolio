@@ -1,25 +1,31 @@
 section.about {
-    display: flex;
     padding: 0 5rem;
+   
+}
+.about__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-size: 1.2rem;
     width: 70%;
-   
+
 }
 
 @media(max-width:768px){
-    section.about{
-        padding-right: 1.3rem;
-        padding-left: 1.3rem;
-        width: 95%;
+    .about__container{
+        width: 100%;
+
     }
 }
 
 @media(max-width:425px){
     section.about{
-
-        align-items: center;
-        font-size: 1rem;
-        padding:  1rem;
-        width: 90%;
+        padding: 0 1rem;
+    }
+    .about__container{
+        width: 100%;
+       
+      
+        
     }
 }

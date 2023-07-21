@@ -7,6 +7,10 @@
     font-size: 1.3rem;
     color: var(--color-parrafo);
 }
+.title__network__item{
+    margin-right: 2rem;
+
+}
 
 @media(max-width:768px) {
     
@@ -20,6 +24,10 @@
         width: 100%;
 
     }
+    .title__network__item{
+        margin-right: 0;
+    
+    }
    
 }
 @media(max-width:425px){
@@ -27,16 +35,17 @@
     .title__bio{
         font-size: 1.3rem;
         text-align: justify;
-        width: 90%;
+        width: 100%;
 
 
     }
     .title__subsection{
         font-size: 1.1rem;
         text-align: justify;
-        width: 90%;
-
-
-
+        width: 100%;
+    }
+    .title__network__item{
+        margin-right: 0;
+    
     }
 }

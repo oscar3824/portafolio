@@ -1,10 +1,4 @@
-.formcontato__form {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
 .input-container {
-    font-weight: var(--font-weigth-input);
     position: relative;
     margin-bottom: 1rem;
     display: flex;
@@ -24,38 +18,28 @@
 
 .formcontato__input,
 .formcontato__textarea {
-    width: 60%;
+    width: 90%;
     padding: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
-}
-
-.formcontato__textarea {
     resize: vertical;
+
 }
 
 .formcontato__botao {
-    width: 10rem;
+    width: 97%;
     padding: .5rem;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: bold;
     color: #fff;
     background-color: #333;
     border-radius: 4px;
     transition: background-color 0.3s ease;
 }
-.formcontato--esquerda{
-    text-align: left;
-    margin-bottom: 3rem;
-    width: 50%;
-   
-}
+
 
 @media(max-width:768px) {
-    .formcontato__contacto {
-        justify-content:space-between;
-        align-items: flex-start;
-    }
+   
 
     .formcontato__input,
     .formcontato__textarea {
@@ -67,10 +51,17 @@
     }
 }
 @media(max-width:425px){
-    .formcontato--esquerda{
-        margin-bottom: 3rem;
-        width: 100%;
+    .formcontato__form {
+        justify-content: center;
     }
+    .formcontato__input,
+    .formcontato__textarea {
+        width: 90%;
+    }
+    .formcontato__botao{
+        width: 99%;
+    }
+  
     
    
    
