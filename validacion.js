@@ -1,4 +1,13 @@
 const inputs = document.querySelectorAll(".formcontato__input");
+const btn = document.querySelector("#btnRegistro");
+const miFormulario = document.querySelector(".formcontato__form");
+const mensajeEnviado = document.getElementById("mensaje-enviado");
+
+miFormulario.addEventListener("submit", function (event) {
+  alert("¡Mensaje enviado con éxito!");
+  const btnRegistro = document.getElementById("btnRegistro");
+  btnRegistro.disabled = true;
+});
 
 inputs.forEach((input) => {
   input.addEventListener("blur", (input) => {
@@ -57,8 +66,8 @@ function mostrarMensajeError(tipoInput, input) {
 
 const validadores = {
 };
-
-const miFormulario = document.getElementById("miFormulario");
+/*
+const miFormulario = document.querySelector(".formcontato__form");
 
 miFormulario.addEventListener("submit", function (event) {
   const todosLosCamposValidos = Array.from(inputs).every(input => input.validity.valid);
@@ -75,7 +84,7 @@ function cargarValoresCampos() {
 }
 
 window.addEventListener("load", cargarValoresCampos);
-
+*/
 
 
 
