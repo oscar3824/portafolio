@@ -1,21 +1,26 @@
 section.title{
     padding: 1rem 5rem;
+    background-color: var(--color-header);
+
 }
 
 .title__div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+
 }
 
 @media(max-width:768px) {
     section.title{
         padding: 1rem;
     }
+    .title__div{
+        height: 55vh;
+        align-items: end;
+    }
     
-}
-@media(max-width:425px){
-    
-    
-    
-
 }

@@ -6,6 +6,13 @@
     background-color: white;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    transition: 0.8s;
+}
+.skills__box:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 1rem var(--color-hover);
+
+
 }
 .skills__icon{
     text-align: center;
@@ -17,7 +24,7 @@
 
 @media (max-width:768px){
     .skills__box {
-        width: 100%;
+        width: 48%;
         margin-bottom: 1rem;
         justify-content: center;
         align-items: center;

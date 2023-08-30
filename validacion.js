@@ -66,25 +66,10 @@ function mostrarMensajeError(tipoInput, input) {
 
 const validadores = {
 };
-/*
-const miFormulario = document.querySelector(".formcontato__form");
-
-miFormulario.addEventListener("submit", function (event) {
-  const todosLosCamposValidos = Array.from(inputs).every(input => input.validity.valid);
-
-  if (todosLosCamposValidos) {
-    alert("¡Mensaje enviado con éxito!");
-  }
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+  document.querySelector('.menu__list').classList.toggle('active');
 });
-function cargarValoresCampos() {
-  const campos = miFormulario.querySelectorAll("input, textarea");
-  campos.forEach((campo) => {
-    campo.value = localStorage.getItem(campo.name) || "";
-  });
-}
 
-window.addEventListener("load", cargarValoresCampos);
-*/
 
 
 

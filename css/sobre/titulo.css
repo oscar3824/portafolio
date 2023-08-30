@@ -2,4 +2,6 @@
     font-weight: bold;
     font-size: 2rem;
     color: var(--color-title);
+    text-align: center;
+    margin-top: 3rem;
 }

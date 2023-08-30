@@ -2,18 +2,55 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 5rem;
     font-size: 1.2rem;
 }
 .menu__list__item{
     margin-right: 2rem;
 
 }
-@media (max-width: 768px) {
-    .menu__list {
-        display: none;
-
-
-    }
-    
+.menu-toggle{
+    display: none;
 }
+  
+  /* Estilos para las barras del botón de hamburguesa */
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .menu__list {
+      position: absolute;
+      top: 85%;
+      left: -50%;
+      width: 25%; /* Ajusta el ancho según tus preferencias */
+      background-color:var(--color-header);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      transition: left 0.3s ease;
+      
+    }
+  
+    .menu__list.active {
+      left: 0;
+    }
+  
+    .menu-toggle {
+      display: block; /* Mostrar el botón en pantallas pequeñas */
+      position: absolute;
+      top: 100px;
+      left: 10px;
+    }
+  
+    .menu__list {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .menu__list__item {
+      margin-bottom: 10px;
+    }
+  }
+  
