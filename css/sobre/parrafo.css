@@ -1,6 +1,6 @@
 .about__paragraph {
     text-align: justify;
-    line-height: 1.7;
+    line-height: 1.5;
 }
 
 @media(max-width:768px){

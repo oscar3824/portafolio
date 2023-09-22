@@ -17,11 +17,11 @@
     
     .title__bio{
     font-size: 1.7rem;
-    text-align: justify;
+    text-align: center;
     }
     .title__subsection{
         font-size: 1.2rem;
-        text-align: justify;
+        text-align: center;
         width: 100%;
 
     }
@@ -35,14 +35,12 @@
         
     .title__bio{
         font-size: 23px;
-        text-align: justify;
         width: 100%;
 
 
     }
     .title__subsection{
         font-size: 16px;
-        text-align: justify;
         width: 100%;
     }
     .title__network__item{

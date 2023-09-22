@@ -2,16 +2,16 @@
     width: 25%;
     border-radius: 50%;
     transition: box-shadow 0.3s ease;
-    border: 2px solid var(--color-hover);
-}
-.title__profile:hover{
     box-shadow: 0 0 2rem var(--color-hover);
+
 }
+
 @media(max-width:768px) {
     .title__profile{
         position: absolute;
-        top: 15%;
-        left: 38%;
+        top: 20%;
+        left: 35%;
+        width: 30%;
     }
 
 }

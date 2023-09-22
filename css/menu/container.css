@@ -9,19 +9,26 @@ section.menu {
     padding: 0 1rem;
     height: 15vh;
 } 
+.menu__list{
+    display: flex;
+}
 
 .menu__header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 1.5rem;
 }
 .menu__header h3{
     padding-left: 1rem;
+    font-size: 3rem;
 }
+
     
 @media (max-width: 768px) {
     section.menu {
         align-items: flex-start;
+        height: 8vh;
 
 }
      
@@ -30,12 +37,14 @@ section.menu {
 @media (max-width: 425px) {
     section.menu{
         padding: 1.3rem;
-        height: 13vh;
     }
     .menu__header{
         display: flex;
         align-items: left;
         padding: 1rem;
+    }
+    .menu__header h3 {
+        font-size: 2rem;
     }
        
 

@@ -1,13 +1,14 @@
 .experience__img {
-    width: 60%;
+    width: 100%;
     border-radius: 1rem;
     border: 2px solid rgba(0, 0, 0, 0.1);
+    max-height: 300px;
    
 
 }
 
 .experience__img_banco {
-    margin-left: 8rem;
+    margin-left: 4rem;
     width: 433px;
     height: 577px;
     border-radius: 1rem;

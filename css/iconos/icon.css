@@ -1,7 +1,7 @@
 .awesome_icons{
     display: flex;
     flex-direction: column;
-    font-size: 2.3rem;
+    font-size: 2rem;
     color: var(--color-hover);
     
 }
@@ -10,4 +10,8 @@
     .iconRedes{
         font-size: 1.5rem;
   }
+  .awesome_icons{
+    font-size: 2rem;
+  }
+
 }
