@@ -9,9 +9,9 @@
 @media(max-width:768px) {
     .title__profile{
         position: absolute;
-        top: 20%;
+        top: 25%;
         left: 35%;
-        width: 30%;
+        width: 25%;
     }
 
 }
