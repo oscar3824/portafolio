@@ -23,3 +23,10 @@
     color: var(--color-hover);
     padding-right: 10px;
 }
+@media screen and (max-width: 400px) {
+    .experience__text{
+        font-size: 14px;
+        width: 95%;
+    }
+    
+}

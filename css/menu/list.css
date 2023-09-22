@@ -28,7 +28,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        top: 76%;
+        top: 78%;
         left: -110%;
         width: 100%; /* Ajusta el ancho según tus preferencias */
         background-color:var(--color-header);
@@ -40,7 +40,7 @@
   
       .menu__list.active {
         left: -1%;
-        top: 76%;
+        top: 78%;
         width: 100%;
         opacity: 90%;
       }
